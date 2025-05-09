@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="description" content="Welcome to our Animal Care Guide! 🐾
+    Discover everything you need to know about your future pet — from 
+    habitat requirements, ideal 
+    temperatures, food, to daily care tips. Our website helps animal
+     lovers find the perfect companion 
+    and learn how to provide them with a healthy and happy life. 🌿 Whether you're 
+    adopting a cat, dog, bird, 
+    or exotic animal, we guide you step by step to ensure your new friend feels right at home!">
+    <meta name="keywords" content =" Animal Care ,  Pet Care , How to take care of animals ,   How to raise a pet  , 
+    Pet guide , Animal information , Best pets to adopt , How to take care of a dog ,  How to take care of a cat 
+    , Exotic pet care ,  Pet adoption guide , Animal habitat ,  Ideal temperature for pets , Pet food guide , 
+    Raising animals at home , Animal health tips , Beginner pet owner tips , How to choose a pet ,
+     Animal living conditions , Pet training tips" >
+      <meta name="author" content="Andof Sara ">
+      <meta http-equiv="refresh" content="99990"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Paws</title>
+    <link rel="icon" type="icon" href="image/lo.jpg">
+
+    <style>
+       *{
+                font-style: italic;
+        }
+        legend , label{
+              text-shadow: -1px 0px 1px rgb(250, 49, 83);
+
+        }
+        body{
+          background: #ff9494;
+          background: linear-gradient(193deg, rgba(255, 148, 148, 1) 0%, rgba(255, 224, 224, 1) 54%, rgba(255, 168, 180, 1) 100%);
+         }
+         audio{
+  
+               margin-left:950px ;
+        }
+         .log{
+          
+           margin-left: 50px; 
+           margin-right: 50px;     
+   }
+   fieldset{
+       padding: 20px;
+       margin: 100px;
+   }
+
+    </style>
+</head>
+<body>
+<audio controls loop muted autoplay>
+  <source src="cinematic-fairy-tale-story-main-8697.mp3" type="audio/mpeg">
+  <source src="cinematic-fairy-tale-story-main-8697.wav" type="audio/wav">
+  <source src="cinematic-fairy-tale-story-main-8697.ogg" type="audio/ogg">
+</audio>
+<h1><i> <u>Learn and choose your future best friend!</u></i></h1>
+<form method="post">
+  <fieldset>
+    <legend>Login ˁ(〞⌣̀_⌣́)ˀ  </legend>
+  <div>
+  <label for="txn">First Name</label>
+ <input id="txn" type="text" placeholder="FName" required>
+ <label for="txl">Last name</label>
+ <input id="txl" type="text" placeholder="LName" required>
+</div>
+<br>
+<div>
+ <label for="em">The Email</label>
+<input id="em" type="email" placeholder="Email" required> 
+<!-- required : necessery he should enter    -->
+</div>
+<br>
+<div>
+ <label for="pass">The Password</label> 
+ <input id="pass" type="password" placeholder="Password" required>
+</div>
+<br>
+<div>
+ <label for="te">Phone Number</label>
+ <input id="te" type="tel" placeholder="Phone" required>
+</div>
+<br>
+<div>
+ <label for="source">How did you hear about us?</label>
+<select id="source" name="source" multiple>
+  <option value="youtube">YouTube</option>
+  <option value="tiktok">TikTok</option>
+  <option value="instagram">Instagram</option>
+  <option value="facebook">Facebook</option>
+  <option value="google">Google Search</option>
+  <option value="friend">Friend Recommendation</option>
+  <option value="blog">Blog/Article</option>
+  <option value="other">Other</option>
+</select>
+</div>
+<br>
+<a style="margin-left: 250px;" href="index.html">
+  <button type="button" class="log">🏠 Home</button>
+</a>
+
+<a style="margin-left: 650px;" href="logOut.html">
+  <button type="button" class="log">🚪 Logout</button>
+</a>
+<br>
+<button type="button" onclick="checkForm()"> Done (: </button>
+
+</fieldset>
+ 
+<br>
+<br>
+<br>
+<br>
+
+</form>
+<script>
+  function checkForm() {
+    let fname = document.getElementById("txn").value;
+    let lname = document.getElementById("txl").value;
+    let email = document.getElementById("em").value;
+    let pass = document.getElementById("pass").value;
+    let phone = document.getElementById("te").value;
+
+    if (fname === "" || lname === "" || email === "" || pass === "" || phone === "") {
+      alert(" >_< Please fill in all the fields!");
+      return false;
+    }
+
+    alert(" Thank you! Form submitted successfully. <333 ");
+    return true;
+  }
+
+  document.querySelector("form").addEventListener("submit", function(event) {
+    event.preventDefault(); // ma tkhallich form ytsift daba
+    checkForm();
+  });
+</script>
+
+</body>
+</html>

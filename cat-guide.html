@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Welcome to our Animal Care Guide! 🐾
+        Discover everything you need to know about your future pet — from 
+        habitat requirements, ideal 
+        temperatures, food, to daily care tips. Our website helps animal
+         lovers find the perfect companion 
+        and learn how to provide them with a healthy and happy life. 🌿 Whether you're 
+        adopting a cat, dog, bird, 
+        or exotic animal, we guide you step by step to ensure your new friend feels right at home!">
+        <meta name="keywords" content =" Animal Care ,  Pet Care , How to take care of animals ,   How to raise a pet  , 
+        Pet guide , Animal information , Best pets to adopt , How to take care of a dog ,  How to take care of a cat 
+        , Exotic pet care ,  Pet adoption guide , Animal habitat ,  Ideal temperature for pets , Pet food guide , 
+        Raising animals at home , Animal health tips , Beginner pet owner tips , How to choose a pet ,
+         Animal living conditions , Pet training tips" >
+          <meta name="author" content="Andof Sara ">
+          <meta http-equiv="refresh" content="99990"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Happy Cat</title>
+        <link rel="icon" type="icon" href="image/icat.jpg">
+
+        <style>
+            h2{
+                color:rgb(40, 188, 215);
+                margin-left: 550px;
+            }
+            img{
+        width: 180px;
+        margin-left: 1030px;
+
+       }
+       footer{
+
+        margin-left: 70px;
+       }
+       h1{
+                border-style:outset;
+                max-width: 400px;
+                border-color: rgb(127, 219, 255);
+                margin-left: 400px;
+                padding: 11px;
+                height: 50px;
+                background-color:rgb(213, 252, 255);
+               
+            }
+            
+            *{
+                font-style: italic;
+            }
+            .cc{
+                text-align: center;
+                text-transform: uppercase;
+            }
+            body{
+                background-color: azure;
+            }
+            .section{  
+                width: 900px;
+            border-radius: 50px 10px;
+            margin-left: 200px;
+            background: rgb(219, 254, 255);
+            text-transform: uppercase;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 15px;
+    } 
+        </style>
+    </head>
+<body>
+
+
+    <header>
+        <h1>🐱 Happy Cat Care Guide</h1>
+        <p class="cc">Love, Feed & Protect your little tiger 🐈💖</p>
+      </header>
+
+ <br>
+ <img src="image/cgif.gif" alt="GIF " />
+
+
+ <h2><span class="icon">🌍</span>Habitat</h2>
+
+ <section class="section">
+    <ul>
+      <li>Safe and quiet indoor environment with cozy resting spots.</li>
+      <li>Provide vertical space like shelves or cat trees.</li>
+      <li>Hideaways and private corners are important for comfort.</li>
+    </ul>
+  </section>
+  <br>
+  <h2><span class="icon">🍽️</span>Food</h2>
+  <section class="section">
+    <ul>
+      <li>High-quality wet or dry cat food with meat protein.</li>
+      <li>Occasional treats: cooked chicken, eggs (no salt).</li>
+      <li>Avoid milk, chocolate, garlic, and raw meat.</li>
+    </ul>
+  </section>
+<br>
+<h2><span class="icon">🌡️</span>Temperature</h2>
+<section class="section">
+    
+    <ul>
+      <li>Ideal: 20°C – 26°C (68°F – 78°F).</li>
+      <li>Keep warm bedding for cold nights.</li>
+      <li>Offer cool spots and water in hot weather.</li>
+    </ul>
+  </section>
+<br>
+<h2><span class="icon">💧</span>Daily Care</h2>
+  <section class="section">
+   
+    <ul>
+      <li>Fresh water every day (consider fountains).</li>
+      <li>Clean litter box daily and change weekly.</li>
+      <li>Brush your cat weekly (more if long-haired).</li>
+      <li>Playtime is essential — use toys & scratchers.</li>
+    </ul>
+  </section>
+
+  <h2><span class="icon">🩺</span>Health Tips</h2>
+  <section class="section">
+    
+    <ul>
+      <li>Visit the vet once a year, or more often if sick.</li>
+      <li>Vaccines, flea control & deworming are essential.</li>
+      <li>Spay/neuter for health and behavior benefits.</li>
+      <li>Watch for changes in appetite, energy, or behavior.</li>
+    </ul>
+  </section>
+
+  <br>
+  <h2><span class="icon">🎓</span>Training</h2>
+  <section class="section">
+  
+    <ul>
+      <li>Use a clean, quiet place for litter training.</li>
+      <li>Encourage scratching on posts, not furniture.</li>
+      <li>Some cats can learn simple commands with treats.</li>
+      <li>Be gentle, never punish — cats love routine and patience.</li>
+    </ul>
+  </section>
+
+  <br>
+  <br>
+  <br>
+  
+<div style="text-align: center; margin-top: 30px;">
+    <label for="source" style="color:rgb(0, 106, 145); font-size: 20px;">Choose an animal 🐾</label>
+    <select id="source" onchange="redirectAnimal(this.value)" style="padding: 10px; margin-left: 10px; border-radius: 10px; background-color: #e5f4f9;">
+      <option value="">-- Select an animal --</option>
+      <option value="Cats">Cats</option>
+      <option value="Dogs">Dogs</option>
+      <option value="Birds">Birds</option>
+      <option value="Horse">Horse</option>
+      <option value="Fox">Fox</option>
+      <option value="Exotic">Exotic Animals</option>
+    </select>
+  </div>
+  <script>
+    function redirectAnimal(value) {
+      if (value === "Cats") {
+        window.location.href = "cat-guide.html";
+      } else if (value === "Dogs") {
+        window.location.href = "dog-guide.html";
+      } else if (value === "Birds") {
+        window.location.href = "bird-guide.html";
+      } else if (value === "Horse") {
+        window.location.href = "horse-guide.html";
+      } else if (value === "Fox") {
+        window.location.href = "fox-guide.html";
+      } else if (value === "Exotic") {
+        window.location.href = "exotic-guide.html";
+      }
+    }
+  </script>
+
+  <br>
+  <br>
+  <br>
+<br>
+  <footer>
+    🐾 Made with care by Sara Andof – Every cat deserves love! 💖
+  </footer>
+
+
+<br>
+<br>
+<a style="margin-left: 250px;" href="index.html">
+    <button type="button" class="log">🏠 Home</button>
+  </a>
+  
+  <a style="margin-left: 650px;" href="logOut.html">
+    <button type="button" class="log">🚪 Logout</button>
+  </a>
+    <br>
+    <br>
+     
+<br>
+<br>
+<br>
+<br>
+
+</body>
+</html>

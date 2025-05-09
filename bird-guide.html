@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Welcome to our Animal Care Guide! 🐾
+        Discover everything you need to know about your future pet — from 
+        habitat requirements, ideal 
+        temperatures, food, to daily care tips. Our website helps animal
+         lovers find the perfect companion 
+        and learn how to provide them with a healthy and happy life. 🌿 Whether you're 
+        adopting a cat, dog, bird, 
+        or exotic animal, we guide you step by step to ensure your new friend feels right at home!">
+        <meta name="keywords" content =" Animal Care ,  Pet Care , How to take care of animals ,   How to raise a pet  , 
+        Pet guide , Animal information , Best pets to adopt , How to take care of a dog ,  How to take care of a cat 
+        , Exotic pet care ,  Pet adoption guide , Animal habitat ,  Ideal temperature for pets , Pet food guide , 
+        Raising animals at home , Animal health tips , Beginner pet owner tips , How to choose a pet ,
+         Animal living conditions , Pet training tips" >
+          <meta name="author" content="Andof Sara ">
+          <meta http-equiv="refresh" content="10"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Happy Bird</title>
+        <link rel="icon" type="icon" href="image/icb.jpg">
+        <style>
+            h2{
+                color:rgb(255, 233, 62) ;
+                margin-left: 555px;
+            }
+            img{
+        width: 130px;
+        margin-left: 1030px;
+
+       }
+       footer{
+
+        margin-left: 70px;
+       }
+            h1{
+                border-style:outset;
+                max-width: 550px;
+                border-color: rgb(248, 223, 140);
+                margin-left: 350px;
+                padding: 11px;
+                height: 50px;
+                background-color:rgb(255, 255, 255);
+               
+            }
+            *{
+                font-style: italic;
+            }
+            body{
+                background-color: rgb(255, 255, 237);
+            }
+            .card{
+            border-radius: 50px 10px;
+            margin-left: 200px;
+            background: rgb(251, 255, 219);
+            text-transform: uppercase;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 15px;
+    }
+            
+
+        </style>
+    </head>
+<body>
+<br>
+<br>
+ <h1>🐤 <i>Bird Information Guide (Pet Birds)</i></h1>
+
+<img src="image/hd002.gif" alt="GIF " />
+
+<br>
+
+ <h2 >🌍 <i>Habitat</i></h2>
+
+ <div class="card">
+    <ul>
+      <li>Spacious, clean cage with perches, toys, and space to fly.</li>
+      <li>Place cage in calm area with natural light (no direct sun).</li>
+      <li>Avoid kitchen fumes and drafts.</li>
+    </ul>
+  </div>
+
+  <h2>🍽️ Food</h2>
+  <div class="card">
+    <ul>
+      <li>Mix of seeds, pellets, fruits, and veggies.</li>
+      <li>Safe foods: apple (no seeds), spinach, carrots, rice.</li>
+      <li>Avoid: chocolate, avocado, garlic, caffeine.</li>
+    </ul>
+  </div>
+  
+<br>
+<br>
+<br>
+<br>
+
+
+  <h2>🌡️ Temperature</h2>
+  <div class="card">
+    <ul>
+      <li>Ideal: 18°C – 26°C.</li>
+      <li>Keep away from cold drafts.</li>
+      <li>Provide water and ventilation in hot weather.</li>
+    </ul>
+  </div>
+  
+<br>
+<br>
+<br>
+<br>
+
+
+  <h2>💧 Daily Care</h2>
+  <div class="card">
+    <ul>
+      <li>Fresh water daily.</li>
+      <li>Clean cage weekly and bowls daily.</li>
+      <li>Offer shallow bath or misting.</li>
+      <li>Birds need social time daily.</li>
+    </ul>
+  </div>
+  
+<br>
+<br>
+<br>
+<br>
+
+
+  <h2>🩺 Health Tips</h2>
+  <div class="card">
+    <ul>
+      <li>Visit avian vet yearly.</li>
+      <li>Watch for signs of illness (sleepy, no appetite).</li>
+      <li>Provide beak/nail care tools like cuttlebone.</li>
+      <li>Use safe, chewable toys.</li>
+    </ul>
+  </div>
+  
+<br>
+<br>
+<br>
+<br>
+
+
+  <h2>🎓 Training</h2>
+  <div class="card">
+    <ul>
+      <li>Speak gently and offer treats to build trust.</li>
+      <li>Train "step up" command with rewards.</li>
+      <li>Use positive reinforcement, never punish.</li>
+      <li>Parrots can learn tricks with patience!</li>
+    </ul>
+  </div>
+
+<br>
+
+<br>
+<br>
+
+<div style="text-align: center; margin-top: 30px;">
+    <label for="source" style="color:rgb(184, 205, 0); font-size: 20px;">Choose an animal 🐾</label>
+    <select id="source" onchange="redirectAnimal(this.value)" style="padding: 10px; margin-left: 10px; border-radius: 10px; background-color: #fff8ad;">
+      <option value="">-- Select an animal --</option>
+      <option value="Cats">Cats</option>
+      <option value="Dogs">Dogs</option>
+      <option value="Birds">Birds</option>
+      <option value="Horse">Horse</option>
+      <option value="Fox">Fox</option>
+      <option value="Exotic">Exotic Animals</option>
+    </select>
+  </div>
+  <script>
+    function redirectAnimal(value) {
+      if (value === "Cats") {
+        window.location.href = "cat-guide.html";
+      } else if (value === "Dogs") {
+        window.location.href = "dog-guide.html";
+      } else if (value === "Birds") {
+        window.location.href = "bird-guide.html";
+      } else if (value === "Horse") {
+        window.location.href = "horse-guide.html";
+      } else if (value === "Fox") {
+        window.location.href = "fox-guide.html";
+      } else if (value === "Exotic") {
+        window.location.href = "exotic-guide.html";
+      }
+    }
+  </script>
+
+<br>
+<br>
+<footer>
+    🐤 Made with love by Sara Andof– Happy Bird Life!
+  </footer>
+<br>
+<br>
+<a style="margin-left: 250px;" href="index.html">
+    <button type="button" class="log">🏠 Home</button>
+  </a>
+  
+  <a style="margin-left: 650px;" href="logOut.html">
+    <button type="button" class="log">🚪 Logout</button>
+  </a>
+<br>
+ 
+<br>
+
+<br>
+<br>
+<br>
+
+
+</body>
+</html>
